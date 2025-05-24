@@ -1,0 +1,21 @@
+# Core dependencies for Firecrawl + Ollama Integration
+firecrawl-py>=0.0.8
+ollama>=0.1.7
+requests>=2.31.0
+
+# Report generation dependencies
+reportlab>=4.0.4
+
+# Chart generation for HTML reports
+# Note: Charts are generated using CDN-hosted Chart.js, so no additional Python packages needed
+
+# Optional: For enhanced PDF features
+Pillow>=10.0.0
+
+# Development and testing (optional)
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+
+# System utilities (usually included with Python)
+# os, json, time, datetime, csv, base64 are built-in modules
